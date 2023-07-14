@@ -1,0 +1,147 @@
+/* styles.css */
+
+/* Header */
+header {
+    background-color: #9ff17f;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* Blog Feed */
+.blog-feed {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.blog-feed article {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.blog-feed h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.blog-feed .post-meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.blog-feed p {
+    margin-bottom: 20px;
+}
+
+.blog-feed .read-more {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* Sidebar */
+aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.sidebar-widget {
+    margin-bottom: 20px;
+}
+
+.sidebar-widget h3 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.sidebar-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-widget ul li {
+    margin-bottom:10px;
+}
